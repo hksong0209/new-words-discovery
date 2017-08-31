@@ -222,7 +222,7 @@ public class FindNewWord {
 		}
 	}
 	public static void main(String args[]) throws Exception{ 
-		String dataPath = "./金瓶梅.txt";//西游记
+		String dataPath = "./data/金瓶梅.txt";//西游记
 		//
 		InputStreamReader read = new InputStreamReader(new FileInputStream(dataPath),"gbk"); //,"gbk","UTF-8"
 		@SuppressWarnings("resource")
